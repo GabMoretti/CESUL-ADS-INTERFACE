@@ -15,6 +15,8 @@ function App() {
     <contextExemplo.Provider value={{nome, sobreNome, setNome, idade}}>
       <ComponenteFilho/>
     </contextExemplo.Provider>    
+
+    <componenteTataraneto/>
     </>
   )
 }
