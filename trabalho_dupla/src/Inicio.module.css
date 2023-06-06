@@ -1,0 +1,13 @@
+.img {
+    height: 600px;
+    width: 790px;
+    display: flex;
+    align-items: center;
+    border-width: medium;
+    border: 10px solid rgba(120, 119, 119, 0.2);
+  }
+
+.botao{
+    margin: 10px;
+    margin-top: 0px;
+}

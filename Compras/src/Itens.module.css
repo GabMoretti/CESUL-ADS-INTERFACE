@@ -1,0 +1,77 @@
+.titulo{
+    margin-right: 700px;
+}
+
+.tamanho{
+    height: 250px;
+}
+
+.titulo2{
+    padding-top: 10px;
+    color: #666666;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palavras, .palavra3{
+    font-size: 16px;
+    padding-top: 20px;
+    color: #666666;
+}
+
+.input{
+    border: 1px solid #666666;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+.input2{
+    border: 1px solid #666666;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+.input3{
+    border: 1px solid #666666;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin-left: 95px;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: row;
+}
+
+.palavra3{
+    margin-left: 115px;
+}
+
+.cadastrar{
+    margin-top: 15px;
+    background-color: #33BA51;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.limpar{
+    margin-top: 15px;
+    background-color: #BA3333;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.alinhamento2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
