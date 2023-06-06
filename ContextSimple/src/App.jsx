@@ -34,4 +34,6 @@ function ComponenteNeto(props){
   return <h1>O nome da pessoa é {nome} {sobreNome}</h1>
 }
 
+function ComponenteBisNeto
+
 export default App
