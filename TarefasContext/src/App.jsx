@@ -8,7 +8,7 @@ function App() {
   const {theme} = useContext(ThemeContext);
 
   return (
-    <main  className={`${ theme === 'DARK' ? 'DARK' : '' }`}>
+    <main  className={`${ theme !== 'DARK' ? 'DARK' : '' }`}>
       <Header />
     </main>
   )

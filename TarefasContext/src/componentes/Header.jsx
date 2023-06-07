@@ -14,7 +14,10 @@ const {theme, changeTheme} = useContext(ThemeContext);
             </nav>
 
             <section>
-                <button onClick={changeTheme}>{theme}</button>
+
+                <button className="btnThema" onClick={changeTheme}>
+                    <span class="material-symbols-outlined">{theme == 'DARK' ? 'dark_mode': 'light_mode'}</span>
+                </button>
             </section>
 
         </header>
