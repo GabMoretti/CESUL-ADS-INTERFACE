@@ -10,3 +10,8 @@ header{
     background-color: rgb(128, 128, 128);
     padding: 15px;
 }
+
+.DARK{
+    background-color: #333;
+    color: #fff;
+}
