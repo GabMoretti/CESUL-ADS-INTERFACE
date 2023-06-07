@@ -6,7 +6,7 @@ export const ThemeContext = createContext();
 //vou usar no HTML
 export const ThemeProvider = ({children}) => {
 
-    const [theme, setTheme] = useState('DARK')
+    const [theme, setTheme] = useState('LIGHT')
 
     function changeTheme(){
 

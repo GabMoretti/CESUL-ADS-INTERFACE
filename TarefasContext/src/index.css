@@ -7,8 +7,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(128, 128, 128);
     padding: 15px;
+}
+
+main{
+    height: 100vh;
 }
 
 .DARK{
