@@ -11,11 +11,11 @@ function ListarTarefas() {
             <section>
                 <ul>
                     {
-                        listarTarefas.map((tarefa) => {
+                        listarTarefas.map((tarefa) => (
 
                             <li>{tarefa.nomeTarefa}</li>
 
-                        })
+                        ))
                     }
                 </ul>
             </section>

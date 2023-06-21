@@ -12,5 +12,5 @@ export const TaskProvider = ({ children }) => {
 
     }
 
-    return <TaskContext.Provider value={(listarTarefas, cadastrarTarefa)}>{children}</TaskContext.Provider>
+    return <TaskContext.Provider value={({listarTarefas, cadastrarTarefa})}>{children}</TaskContext.Provider>
 }
