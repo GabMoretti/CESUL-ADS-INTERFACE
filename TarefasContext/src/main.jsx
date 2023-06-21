@@ -4,21 +4,18 @@ import App from './App.jsx'
 import './index.css'
 import { ThemeProvider } from './contexts/ThemeContext.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Cadastrar from './pages/Cadastrar.jsx'
+import ListarTarefas from './pages/ListarTarefas.jsx'
+import { routerCesul } from './router.jsx'
+import { TaskProvider } from './contexts/TaskContext.jsx'
 
-const routerCesul = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>,
-    children: [
-      {path: "/cadastrar", element: <Cadrastrar/>}
-    ]
-  }
-])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider>
-      <RouterProvider router={routerCesul}/>
+      <TaskProvider>
+        <RouterProvider router={routerCesul} />
+      </TaskProvider>
     </ThemeProvider>
   </React.StrictMode>,
 )
