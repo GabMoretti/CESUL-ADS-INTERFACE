@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+}
+
+.logo{
+    font-size: 50px;
+    margin: 10px;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: greenyellow;
+}

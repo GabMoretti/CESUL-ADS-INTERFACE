@@ -1,0 +1,16 @@
+.cabecalho,
+.nome {
+    font-size: 120px;
+    color: blueviolet;
+}
+
+button {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

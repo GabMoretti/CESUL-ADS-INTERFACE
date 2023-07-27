@@ -1,0 +1,33 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    border: 1px solid black;
+}
+
+.titulo{
+    font-size: 20px;
+
+}
+
+input{
+    width: 500px;
+    height: 60px;
+}
+
+header{
+    font-size: 30px;
+}
+
+.resumo_tela_4{
+    width: 500px;
+    height: 300px;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

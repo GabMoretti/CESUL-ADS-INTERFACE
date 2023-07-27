@@ -1,0 +1,41 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 72%;
+    height: 96%;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    background-color: rgb(161, 89, 228);
+    color: #fff;
+    align-items: center;
+    line-height: 300px;
+}
+
+.logo{
+    font-size: 80px;
+}
+
+input{
+    height: 50px;
+    margin: 10px;
+    width: 300px;
+}
+
+button{
+    height: 50px;
+    margin: 10px;
+    width: 100px;
+    color: #fff;
+}
